@@ -1,0 +1,86 @@
+/* Body styling */
+body {
+    background-color: #0C0E15;  /* Dark background */
+    display: flex;
+    justify-content: center;   /* Centers the form horizontally */
+    align-items: center;       /* Centers the form vertically */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;  /* Clean font for the page */
+}
+
+/* Container for the login form */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background of the form */
+.bg {
+    background-color: rgb(21, 21, 19);  /* Darker background for the form */
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; /* Limit the max width of the form */
+    text-align: center;
+}
+
+/* Header of the login form */
+.login-header {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Styling for each input field */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+/* Styling for the login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #C40D25;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width:45%;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the login button */
+.login-btn:hover {
+    background-color: #DC011E;
+}
+
+/* Link to sign-up page */
+.sign-up-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sign-up-link:hover {
+    text-decoration: underline;
+}

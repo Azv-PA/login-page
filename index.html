@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Background and form container -->
+        <div class="bg">
+            <h2 class="login-header">Login</h2>
+            
+            <!-- Form for login -->
+            <form action="login_process.php" method="POST">
+                
+                <!-- Username Field -->
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                </div>
+
+                <!-- Password Field -->
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+
+                <!-- Login Button -->
+                <button type="submit" class="login-btn">Login</button>
+
+                <!-- Sign-Up Link -->
+                <p><span style="color: rgb(194, 194, 194)">Don't have an account?</span><a href="signup.html" class="sign-up-link"> Sign up here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
